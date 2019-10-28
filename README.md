@@ -26,17 +26,20 @@ Python tool for xps peak fitting
 
 
 ## Usage
-An example of how to use the program can be found in example.py. This code can be copied, and with a few small changes, used to curve fit
-other XPS-data. Firstly, change the variables *path* and *filename* to specify the desired peak to be fitted. The file must be of the type
-.txt and contain only x- and y-values separated by whitespace.
-`
+An example of how to use the program can be found in example.py. This code can be copied, and with a few small changes, used to curve
+fit other XPS-data. Firstly, change the variables *path* and *filename* to specify the desired peak to be fitted. The file must be of
+the type .txt and contain only x- and y-values separated by whitespace.
+
+```
 path = "XPS_data/"
 filename = "Rb3d.txt"
-`
+```
+
 Change the *peaks* variable according to what peaks are expected to exist. This variable is a dictionary where the keys are the strings
 's', 'p' and 'd' describing the orbital type. The values are lists of lists with the initial guesses for height and position for the
 peaks, also containing the doublet separation (in eV) in the case of p and d orbitals. In example.py we have looked for two separated 
 d-orbitals:
-`
+
+```
 peaks = {'d': [[112, 1.0e+5, 1.39],[114, 1.0e+0, 1.39]]}
-`
+```
