@@ -43,3 +43,7 @@ d-orbitals:
 ```
 peaks = {'d': [[111, 1.0e+5, 1.48],[114, 1.0e+4, 1.48]]}
 ```
+
+Resulting peak fit:
+<br>
+![Peakfit](https://github.com/jacobdben/XPyS/blob/master/xpsfitted.png)
