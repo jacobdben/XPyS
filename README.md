@@ -41,5 +41,5 @@ peaks, also containing the doublet separation (in eV) in the case of p and d orb
 d-orbitals:
 
 ```
-peaks = {'d': [[112, 1.0e+5, 1.39],[114, 1.0e+0, 1.39]]}
+peaks = {'d': [[111, 1.0e+5, 1.48],[114, 1.0e+4, 1.48]]}
 ```
