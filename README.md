@@ -41,8 +41,12 @@ peaks, also containing the doublet separation (in eV) in the case of p and d orb
 d-orbitals:
 
 ```
-peaks = {'d': [[111, 1.0e+5, 1.48],[114, 1.0e+4, 1.48]]}
+peaks = {'d': [[111, 4.0e+4, 1.48],[113, 1.0e+4, 1.48]]}
 ```
+
+Here we have guessed that the tallest peak of the first doublet is located at 111 eV, with a height of 40000. For the second doublet we
+guess the location of the tallest peak to be around 113 eV, with a height of 10000. In both cases we are assuming we will find split 
+d-orbitals of Rb, so we constrain both to have a doublet separation of 1.48 eV.
 
 Resulting peak fit:
 <br>
